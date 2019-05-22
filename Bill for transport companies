@@ -1,0 +1,13 @@
+a=int(input("enter the initial km: "))
+b=int(input("enter the final km: "))
+km=b-a
+print("Number of kilometer is:", km)
+type=int(input("Enter the type of vehicle 1)two wheeler: 2)four wheeler: "))
+if(type==1):
+  totalcost=(km*10)
+  print(totalcost)
+elif(type==2):
+  totalcost=(km*20)
+  print(totalcost)
+print("Total kilometer is ",km)
+print( "Total amount of cost is ",totalcost)
