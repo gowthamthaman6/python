@@ -1,0 +1,11 @@
+class Mobiles:
+  name="redmi"
+  def __init__(self,model,price):
+    self.model=model
+    self.price=price
+  def details(self):
+    print(self.model)
+    print(self.price)
+ob=Mobiles("note4",10000)
+print(ob.name)
+ob.details()
